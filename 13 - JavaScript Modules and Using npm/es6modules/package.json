@@ -6,21 +6,22 @@
   "scripts": {
     "build": "webpack --progress --watch"
   },
-  "author": "Jesse Mayo",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "flickity": "^2.1.1",
-    "insane": "^2.6.2",
-    "jquery": "^3.3.1",
-    "jsonp": "^0.2.1",
-    "lodash": "^4.17.10",
+    "axios": "^0.12.0",
+    "flickity": "^1.2.1",
+    "insane": "^2.5.0",
+    "jquery": "^3.0.0",
+    "jsonp": "^0.2.0",
+    "lodash": "^4.13.1",
+    "md5": "^2.1.0",
     "slug": "^0.9.1"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.4",
-    "babel-preset-es2015-native-modules": "^6.9.4",
-    "webpack": "^4.6.0",
-    "webpack-cli": "^2.0.15"
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015-native-modules": "^6.6.0",
+    "webpack": "^2.1.0-beta.15"
   }
 }

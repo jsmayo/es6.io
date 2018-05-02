@@ -22,19 +22,15 @@ module.exports = {
     ]
   },
   plugins: [
-  //uglify js
+    // uglify js
     new webpack.optimize.UglifyJsPlugin({
-      compress: {
-        warnings: false
-      },
-      output: {
-        comments: false
-      },
+      compress: { warnings: false },
+      output: { comments: false },
       sourceMap: true
     }),
-    // grabs the path variable
+    // env plugin
     new webpack.DefinePlugin({
-      'process.env': { NODE_ENV: JSON.stringify(nodeEnv) }
+      'proccess.env': { NODE_ENV: JSON.stringify(nodeEnv)}
     })
   ]
-};
+}
