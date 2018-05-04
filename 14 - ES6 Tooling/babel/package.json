@@ -1,0 +1,11 @@
+{
+  "name": "babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "babel": "babel app.js --watch --out-file app-compiled.js"
+  },
+  "author": "Jesse Mayo",
+  "license": "ISC"
+}
